@@ -1,6 +1,6 @@
 
 .Formbody {
-    background-image: linear-gradient(black 500px, red);
+    background-image: radial-gradient(circle at center,black 650px, red );
     padding-bottom: 0px;
     color: white;
 
