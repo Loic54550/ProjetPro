@@ -11,26 +11,19 @@ $twig = new Twig_Environment($loader);
 
 $template = $twig->loadTemplate('index.twig.html');
 
-echo $twig->render($template, array('name' => 'Fabien'));
+echo $twig->render($template, array('name' => 'Fabien')); 
 
 /* S'enregistrer
-if (isset ($_POST['nomInscription'], $_POST['prenomInscription'], $_POST['villeInscription'])) {
-    $dataUser = getUser($_POST['nomInscription'], $_POST['prenomInscription']);
+if (isset ($_POST['mailInscription'], $_POST['pseudoInscription'], $_POST['pwdInscription'])) {
+    $dataUser = getUser($_POST['mailInscription'], $_POST['pseudoInscription']);
     $res = $dataUser->fetch();
-    if (!$res) insertUser($_POST['nomInscription'], $_POST['prenomInscription'], $_POST['villeInscription']);
+    if (!$res) insertUser($_POST['mailInscription'], $_POST['pseudoInscription'], $_POST['pwdInscription']);
 }*/
 
 
 /* connection
 $messageErreur = "";
-if (isset($_POST['nomConnexion'], $_POST['prenomConnexion'])) {
-    $dataUser = getUser($_POST['nomConnexion'], $_POST['prenomConnexion']);
+if (isset($_POST['mailConnexion'], $_POST['pwdConnexion'])) {
+    $dataUser = getUser($_POST['mailConnexion'], $_POST['pwdConnexion']);
     $res = $dataUser->fetch(); 
-    if ($res) {
-        $_SESSION['id'] = $res['id'];
-        $messageErreur = "YOU ARE CONNECTED";
-    }
-    else {
-        $messageErreur = "Erreur";
-    }
-}*/
+*/
