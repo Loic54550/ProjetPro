@@ -42,6 +42,9 @@
 
 }
 
-.modalVeryLarge{
-    width: 1500px;
+
+.modalVeryLarge {
+    background-color: black;
+    width: 1000px;
+    color: white;
 }
