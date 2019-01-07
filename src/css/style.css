@@ -44,7 +44,13 @@
 
 
 .modalVeryLarge {
-    background-color: black;
-    width: 1000px;
+
     color: white;
+}
+
+.my-4 {
+    margin: 20%;
+    height: 2px;
+    background-image: radial-gradient(circle at center,black 300px, red );
+
 }
