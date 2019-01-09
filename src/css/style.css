@@ -4,8 +4,6 @@
     padding-bottom: 0px;
     color: white;
 
-
-
 }
 
 .tittle {
@@ -23,7 +21,7 @@
 }
 
 .modal{
-	background-image: linear-gradient(black 500px, red);
+	background-image: radial-gradient(circle at center,black 650px, red );
 
 }
 
@@ -55,7 +53,25 @@
 
 }
 
+.my-5 {
+    margin: 30%;
+    height: 2px;
+    background-image: radial-gradient(circle at center,black 50px, yellow );
+
+}
+
 .mainButton {
     width: 100%;
+
+}
+
+.mainButton2 {
+    width: 40%;
+
+}
+
+.mainButtonmodal {
+    width: 100%;
+    
 }
 
