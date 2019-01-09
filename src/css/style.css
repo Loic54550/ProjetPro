@@ -75,3 +75,13 @@
     
 }
 
+.table td, .table th, .table thead th {
+    border: 1px solid red;
+    color: red;
+
+}
+
+.tableYellow td, .tableYellow th, .tableYellow thead th {
+    border: 1px solid yellow;
+    color: yellow;
+}
