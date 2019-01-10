@@ -12,11 +12,45 @@
 <body>
     <div class="Formbody">
         <div style="height: 5vh"></div>
-        <div class="col-md-3"></div>
-        <div class=" text-center">
-            <img src="src/img/wowpage/wow.gif" height="200px"alt="Responsive image">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div id="carouselExampleIndicators" class="col-md-4 carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block1" src="src/img/wowpage/wow.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block1" src="src/img/wowpage/bc.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block1" src="src/img/wowpage/lk.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block1" src="src/img/wowpage/cata.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block1" src="src/img/wowpage/mop.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block1" src="src/img/wowpage/wod.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block1" src="src/img/wowpage/legion.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block1" src="src/img/wowpage/bfaz.jpg">
+                </div>
+            </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
-        <hr class="my-4">
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-3"><a data-toggle="modal" class="btn btn-outline-primary mainButton" data-target="#exampleModal2">Enregistrez-vous en ligne</a></div>
@@ -37,7 +71,7 @@
             </div>    
         </div>
         <hr class="my-5">
-        <div style="height: 18vh"></div>
+
         <footer class="page-footer font-small blue pt-4">
             <div class="col-md-3"></div>
             <div class="text-center"> 
@@ -63,7 +97,7 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-outline-danger mainButtonmodal" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-outline-danger mainButtonmodal" data-dismiss="modal">fermer</button>
                             <button type="submit" class="btn btn-outline-primary mainButtonmodal">Connexion</button>
                         </div>
                     </form>
@@ -91,7 +125,7 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-outline-danger mainButtonmodal" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-outline-danger mainButtonmodal" data-dismiss="modal">Fermer</button>
                             <button type="submit" class="btn btn-outline-primary mainButtonmodal">S'inscrire</button>
                         </div>
                     </form>
@@ -231,7 +265,7 @@
                 Le guildage d’une recrue ne se fera qu’après concertation et d’un entretien vocal avec l’un des responsables de la guilde.
                 </p>
                 <table class="table">
-                    <thead class="thead-dark">
+                    <thead class="thead">
                         <tr>
                             <th scope="col">Classe</th>
                             <th scope="col">Spécilisation</th>
@@ -281,10 +315,6 @@
                         <tr>
                             <th scope="row"><img src="src/img/classewow/guerrier.gif"> Guerrier</th>
                             <td><img src="src/img/recherspé/guerrierarme1.png"> <img src="src/img/recherspé/guerrierfurreur1.png"> <img src="src/img/recherspé/guerriertank1.png"></td>
-                        </tr>
-                        <tr>
-                            <th></th>
-                            <td></td>
                         </tr>
                     </tbody>
                 </table>             

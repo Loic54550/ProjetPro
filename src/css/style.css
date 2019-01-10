@@ -10,6 +10,7 @@
     color: white;
 
 }
+
 .undertittle {
     color: white;
 
@@ -18,6 +19,12 @@
 .my-4 {
     background-color: white;
 
+}
+
+.d-block1 {
+    width: 500px;
+    height: 250px;
+    margin: 10%;
 }
 
 .modal{
@@ -81,7 +88,15 @@
 
 }
 
-.tableYellow td, .tableYellow th, .tableYellow thead th {
-    border: 1px solid yellow;
-    color: yellow;
+
+
+.dropdown-item  {
+    background-color: black;
+    color: red;
+
+}
+
+.dropdown-menu {
+    background-color: black;
+    color: red;
 }
