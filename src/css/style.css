@@ -85,3 +85,9 @@
     border: 1px solid yellow;
     color: yellow;
 }
+
+.d-block1 {
+    width: 500px;
+    height: 250px;
+    margin: 10%;
+}
