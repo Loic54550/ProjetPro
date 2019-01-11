@@ -81,10 +81,7 @@
 
 }
 
-.tableYellow td, .tableYellow th, .tableYellow thead th {
-    border: 1px solid yellow;
-    color: yellow;
-}
+
 
 .d-block1 {
     width: 500px;

@@ -9,7 +9,7 @@ $loader = new Twig_Loader_Array(array(
 $loader = new Twig_Loader_Filesystem('view');
 $twig = new Twig_Environment($loader);
 
-$template = $twig->loadTemplate('index.html.twig');
+$template = $twig->loadTemplate('basetxt.html.twig');
 
 echo $twig->render($template, array('name' => 'Fabien')); 
 
