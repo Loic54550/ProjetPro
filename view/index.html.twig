@@ -1,38 +1,13 @@
 {% extends "base.html.twig" %}
 
 {% block content %}
+
 <div class="Formbody">
     <div style="height: 5vh"></div>
     <div class="row">
         <div class="col-md-4"></div>
-        <div id="carouselExampleIndicators" class="col-md-4 carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block1" src="src/img/wowpage/wow.jpg">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block1" src="src/img/wowpage/bc.jpg">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block1" src="src/img/wowpage/lk.jpg">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block1" src="src/img/wowpage/cata.jpg">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block1" src="src/img/wowpage/mop.jpg">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block1" src="src/img/wowpage/wod.jpg">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block1" src="src/img/wowpage/legion.jpg">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block1" src="src/img/wowpage/bfaz.jpg">
-                </div>
-            </div>
-        </div>
+            {{ include('tool/carousel.html.twig') }}
+        <div class="col-md-4"></div>
     </div>
     <hr class="my-4">
     <div class="row">
@@ -61,7 +36,7 @@
                 <img src="src/img/wowpage/footer.png" class="img" height="100px" alt="Responsive image">
             </div>    
     </footer>
-        
+</div>   
     {{ include('modalTemplate/modalLogin.html.twig') }}
     {{ include('modalTemplate/modalRegister.html.twig') }}
     {{ include('modalTemplate/modalReglement.html.twig') }}

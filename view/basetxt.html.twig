@@ -1,0 +1,32 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+
+<div class="Formbody">
+    <div style="height: 5vh"></div>
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-12 text-center">
+            <img src="src/img/wowpage/wow.gif" height="200px"alt="Responsive image">
+        </div>
+    </div>
+    <hr class="my-4">
+
+
+    <hr class="my-4">
+    <hr class="my-5">
+
+    {{ include('') }}
+    <hr class="my-5">
+    <footer class="page-footer font-small blue pt-4">
+            <div class="col-md-3"></div>
+            <div class="text-center"> 
+                <img src="src/img/wowpage/footer.png" class="img" height="100px" alt="Responsive image">
+            </div>    
+    </footer>
+</div>   
+    {{ include('modalTemplate/modalLogin.html.twig') }}
+    {{ include('modalTemplate/modalRegister.html.twig') }}
+    {{ include('modalTemplate/modalReglement.html.twig') }}
+    {{ include('modalTemplate/modalRecrutement.html.twig') }}
+{% endblock %}

@@ -8,10 +8,12 @@
     <title>Projet Forum Professionel Guilde</title>
 
     <link rel="stylesheet" href="lib/css/bootstrap.css">
-    <link rel="stylesheet" href="src/css/style.css"> 
+    <link rel="stylesheet" href="src/css/style.css">
+    {% block style %}{% endblock %}
 </head>
 <body>
     {% block content %}{% endblock %}
+    {% block script %}{% endblock %}
 </body>
 </html>
     
